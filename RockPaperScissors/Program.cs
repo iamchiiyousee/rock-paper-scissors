@@ -13,6 +13,7 @@ namespace RockPaperScissors
             // TODO:
             // Add AIs by filling in lines like the ones below
             { "Rambo the rando", new RandomAI() },
+            { "Stubby the stubborn AI", new StubbordAI() },
             //{ "Random 2", new RandomAI() },
             //{ "Other", new OtherAI() },
             //{ "YetAnother", new YetAnotherAI() },
