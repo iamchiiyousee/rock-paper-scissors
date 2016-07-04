@@ -8,6 +8,7 @@ namespace RockPaperScissors
 {
     class HumanPlayer : IPlayer
     {
+       // int myMove;
         int getNextMove()
         {
             while (true)
@@ -42,7 +43,9 @@ namespace RockPaperScissors
 
         public void SaveResult(int myMove, int otherMove)
         {
-            // do nothing
+            //this.myMove = myMove;
+
+
         }
     }
 }

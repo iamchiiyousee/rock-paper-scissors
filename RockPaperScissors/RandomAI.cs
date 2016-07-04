@@ -9,6 +9,7 @@ namespace RockPaperScissors
     class RandomAI : IPlayer
     {
         Random random = new Random();
+        //int myMove;
         public int NextMove()
         {
             //0 for rock, 1 for paper, 2 for scissors
@@ -19,6 +20,7 @@ namespace RockPaperScissors
         public void SaveResult(int myMove, int otherMove)
         {
             //blank on purpose
+            //this.myMove = myMove;
         }
     }
 }

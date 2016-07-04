@@ -10,6 +10,7 @@ namespace RockPaperScissors
     {
         Random random = new Random();
         int favoriteMove;
+        //int myMove;
         public StubbordAI()
         {
             favoriteMove = random.Next(0, 2);
@@ -29,7 +30,7 @@ namespace RockPaperScissors
 
         public void SaveResult(int myMove, int otherMove)
         {
-            //blank on purpose
+           // this.myMove = myMove;
         }
     }
 }
